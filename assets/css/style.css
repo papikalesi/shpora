@@ -1,0 +1,160 @@
+/*  special  */
+ul, ol, h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 2rem;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-weight: 900;
+    line-height: 1.5;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    margin: 0 0 1rem 0;
+}
+	strong, b {
+		font-weight: 600;
+	}
+	h1 {
+		font-size: 4rem;
+		line-height: 1.1;
+		margin: 0 0 2rem 0;
+	}
+
+	h2 {
+		font-size: 1.75rem;
+		line-height: 1.3;
+		margin: 0 0 1.5rem 0;
+	}
+
+	h3 {
+		font-size: 1.25rem;
+		margin: 0 0 1.5rem 0;
+	}
+
+	h4 {
+		font-size: 1rem;
+	}
+
+	h5 {
+		font-size: 0.9rem;
+	}
+
+	h6 {
+		font-size: 0.8rem;
+	}
+	sub {
+		font-size: 0.8rem;
+		position: relative;
+		top: 0.5rem;
+	}
+
+	sup {
+		font-size: 0.8rem;
+		position: relative;
+		top: -0.5rem;
+	}
+	p { 
+		margin-bottom: 0;
+	}
+body {
+	font-family: "Merriweather", Georgia, serif;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 2.375;
+}
+li {
+	font-size: 1.3rem;
+	margin-bottom: 0.5rem;
+}
+.z-in {
+	z-index: 10;
+}
+
+/* base */
+body {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+}
+	header {
+
+	}
+	content {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		height: auto;
+	}
+
+	#header {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 5rem!important;
+		margin-bottom: 5rem!important;
+	}
+		#header h1 {
+			font-size: 3rem;
+			color: #ffffff;
+			border-style: solid;
+			border-color: #ffffff;
+			border-width: 7px !important;
+			padding: 1rem 1.75rem;
+			margin: 0;
+		}
+	header {
+		cursor: default;
+	}
+
+		header > .date {
+			display: block;
+			font-size: 0.8rem;
+			height: 1;
+			margin: 0 0 1rem 0;
+			position: relative;
+		}
+
+		header > p {
+			font-family: Merriweather-Italic;
+		}
+
+		header > h1 + p {
+			font-size: 1.3rem;
+			margin-top: -0.5rem;
+			line-height: 2;
+		}
+
+		header > h2 + p {
+			font-size: 1.2rem;
+			margin-top: -0.75rem;
+		}
+
+		header > h3 + p {
+			font-size: 1.1rem;
+			margin-top: -0.75rem;
+		}
+
+		header > h4 + p {
+			font-size: 1rem;
+			margin-top: -0.75rem;
+		}
+
+.recipe {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1em;
+}
+	.recipe:last-child {
+		margin-bottom: 0;
+	}
+	.recipe div:first-child {
+		font-weight: 700;
+		flex: 0 0 auto;
+    	width: 100%;
+	}
+	.recipe div:last-child {
+		flex: 0 0 auto;
+    	width: 100%;
+	}
