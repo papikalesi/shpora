@@ -14,14 +14,17 @@
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
+.s-padding {
+  padding: 8rem 8rem 6rem 8rem;
+}
 .recipe {
   flex-direction: row;
-  margin-bottom: 0;
+  margin-bottom: 1.5rem;
 }
   .recipe div:first-child {
     width: 25%;
   }
-  .recipe div:last-child {
+  .recipe ul {
     width: 75%;
   }
 
