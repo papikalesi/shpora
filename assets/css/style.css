@@ -65,10 +65,15 @@ li {
 	font-size: 1.3rem;
 	margin-bottom: 0.5rem;
 }
+hr {
+    border: 0;
+    border-bottom: solid 2px;
+    border-bottom-color: #bbbbbb;
+    margin: 3rem 0;
+}
 .z-in {
 	z-index: 10;
 }
-
 /* base */
 body {
 	position: relative;
@@ -134,13 +139,16 @@ body {
 		header > h3 + p {
 			font-size: 1.1rem;
 			margin-top: -0.75rem;
+			margin-bottom: 2rem;
 		}
 
 		header > h4 + p {
 			font-size: 1rem;
 			margin-top: -0.75rem;
 		}
-
+.s-padding {
+	padding: 4rem 2rem 2rem 2rem;
+}
 .recipe {
 	display: flex;
 	flex-direction: column;
@@ -154,7 +162,14 @@ body {
 		flex: 0 0 auto;
     	width: 100%;
 	}
-	.recipe div:last-child {
-		flex: 0 0 auto;
-    	width: 100%;
+	.recipe ul {
+		margin-bottom: 0;
 	}
+		.recipe ul li {
+			font-size: 1rem;
+			line-height: 1.8rem;
+			margin-bottom: 0;
+		}
+			.recipe ul li:last-child {
+				margin-bottom: 0;
+			}
